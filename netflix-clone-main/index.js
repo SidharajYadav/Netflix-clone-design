@@ -4,7 +4,7 @@ window.onload = () => {
     getTrendingNow()
     getTopRated()
 }
- 
+  
 // ** Helper function that makes dynamic API calls **
 function fetchMovies(url, dom_element, path_type) {
     // Use Fetch with the url passed down 

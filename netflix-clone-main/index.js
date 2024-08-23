@@ -23,7 +23,7 @@ function fetchMovies(url, dom_element, path_type) {
         }).catch(error => {
             console.log(error);
         })
-}
+} 
 
 //  ** Function that displays the movies to the DOM **
 showMovies = (movies, dom_element, path_type) => {
